@@ -1,0 +1,73 @@
+
+.top-image {
+    background-image: url('https://source.unsplash.com/random/1920x250');
+    background-size: 1920px 250px;
+    height: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+    
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+    .top-image {        
+        background-image: url('https://source.unsplash.com/random/740x100');
+        background-size: 740px 100px;
+        height: 100px;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    .top-image {        
+        background-image: url('https://source.unsplash.com/random/480x125');
+        background-size: 480px 125px;
+        height: 125px;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .top-image {        
+        background-image: url('https://source.unsplash.com/random/1080x125');
+        background-size: 1080px 125px;
+        height: 125px;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .top-image {        
+        background-image: url('https://source.unsplash.com/random/1080x200');
+        background-size: 1080px 200px;
+        height: 200px;
+    }
+}
+
+/* Smaller Desktops and laptops ----------- */
+@media only screen  and (min-width : 740px) {
+    .top-image {        
+        background-image: url('https://source.unsplash.com/random/1224x175');
+        background-size: 1224px 175px;
+        height: 175px;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+    .top-image {        
+        background-image: url('https://source.unsplash.com/random/1920x250');
+        background-size: 1920px 250px;
+        height: 250px;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    .top-image {        
+        background-image: url('https://source.unsplash.com/random/1920x250');
+        background-size: 1920px 250px;
+        height: 250px;
+    }
+}
