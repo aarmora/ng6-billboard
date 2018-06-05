@@ -8,6 +8,10 @@
     background-position: center;
 
 }
+
+.content { 
+    padding: 8px 16px;
+}
     
 /* Smartphones (landscape) ----------- */
 @media only screen and (min-width : 321px) {

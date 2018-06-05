@@ -1,5 +1,14 @@
 <nav>
-  <button mat-button color="secondary">First</button>
-  <button mat-button color="secondary">First</button>
-  <button mat-button color="secondary">First</button>
+  <a [routerLink]="['home']" mat-button color="secondary">Home</a>
+  <a mat-button color="secondary" [matMenuTriggerFor]="menu">Dropdown</a>
+  <mat-menu #menu="matMenu">
+    <button mat-menu-item [matMenuTriggerFor]="services">Angular Docs</button>
+    <a href="https://material.angular.io/" target="_blank" mat-menu-item>Material Docs</a>
+  </mat-menu>
+
+  <mat-menu #services="matMenu">
+      <a href="https://angular.io/tutorial/toh-pt4" target="_blank" mat-menu-item>Services</a>
+      <a href="https://angular.io/tutorial/toh-pt5" target="_blank" mat-menu-item>Routing</a>
+  </mat-menu>
+  <a [routerLink]="['about-us']" mat-button color="secondary">About Us</a>
 </nav>
